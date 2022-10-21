@@ -36,7 +36,7 @@ Abra o terminal na pasta do projeto e entre entre em cada uma das pastas para in
 $ cd frontend
 $ npm install
 
-$ ..cd/backend
+$ cd ../backend
 $ npm install
 ```
 #### Variáveis de Ambiente
