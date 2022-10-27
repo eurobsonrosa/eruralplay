@@ -5,7 +5,7 @@
         <img src="@/assets/logo.png" alt="logo" width="200">
         <hr>
         <div class="auth-title">{{ showSignup ? 'Cadastro' : 'Login' }}</div>
-        <input v-model="user.username" type="text" placeholder="usernome">        
+        <input v-model="user.username" type="text" placeholder="username">        
         <input v-model="user.password" name="password" type="password" placeholder="Senha">
         <input v-if="showSignup" v-model="user.confirmPassword" type="password" placeholder="Confirmação de senha">
 
